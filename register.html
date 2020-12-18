@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./design.css" />
+</head>
+<body>
+    <div class="container container-fluid">
+        <div class="row wrapper">
+		<div class="col-10 col-lg-5">
+        <form class="shadow-lg" encType='multipart/form-data'>
+            <h1 class="mb-3">Register</h1>
+
+          <div class="form-group">
+            <label for="email_field">Name</label>
+            <input type="name" id="name_field" class="form-control" value="" />
+          </div>
+
+            <div class="form-group">
+              <label for="email_field">Email</label>
+              <input
+                type="email"
+                id="email_field"
+                class="form-control"
+                value=""
+              />
+            </div>
+  
+            <div class="form-group">
+              <label for="password_field">Password</label>
+              <input
+                type="password"
+                id="password_field"
+                class="form-control"
+                value=""
+              />
+            </div>
+
+            <div class='form-group'>
+              <label for='avatar_upload'>Avatar</label>
+              <div class='d-flex align-items-center'>
+                  <div>
+                      <figure class='avatar mr-3 item-rtl'>
+                          <img
+                              src=""
+                              class='rounded-circle'
+                              alt='image'
+                          />
+                      </figure>
+                  </div>
+                  <div class='custom-file'>
+                      <input
+                          type='file'
+                          name='avatar'
+                          class='custom-file-input'
+                          id='customFile'
+                      />
+                      <label class='custom-file-label' for='customFile'>
+                          Choose Avatar
+                      </label>
+                  </div>
+              </div>
+          </div>
+  
+            <button
+              id="register_button"
+              type="submit"
+              class="btn btn-block py-3"
+            >
+              REGISTER
+            </button>
+          </form>
+		  </div>
+    </div>
+</div>
+</body>
+</html>

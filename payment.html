@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./design.css" />
+</head>
+<body>
+        <div class="row wrapper">
+		<div class="col-10 col-lg-5">
+            <form class="shadow-lg">
+                <h1 class="mb-4">Card Info</h1>
+                <div class="form-group">
+                  <label for="card_num_field">Card Number</label>
+                  <input
+                    type="text"
+                    id="card_num_field"
+                    class="form-control"
+                    value=""
+                  />
+                </div>
+				
+				<div class="form-group">
+                  <label for="card_exp_field">Card Expiry</label>
+                  <input
+                    type="text"
+                    id="card_exp_field"
+                    class="form-control"
+                    value=""
+                  />
+                </div>
+				
+				<div class="form-group">
+                  <label for="card_cvc_field">Card CVC</label>
+                  <input
+                    type="text"
+                    id="card_cvc_field"
+                    class="form-control"
+                    value=""
+                  />
+                </div>
+      
+            
+                <button
+                  id="pay_btn"
+                  type="submit"
+                  class="btn btn-block py-3"
+                >
+                  Pay
+                </button>
+    
+              </form>
+			  </div>
+        </div>
+</body>
+</html>

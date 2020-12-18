@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shop IT</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./design.css" />
+  </head>
+  <body>
+    <nav class="navbar row">
+      <div class="col-12 col-md-3">
+        <div class="navbar-brand">
+          <img src="./images/logo.png" />
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 mt-2 mt-md-0">
+        <div class="input-group">
+          <input
+            type="text"
+            id="search_field"
+            class="form-control"
+            placeholder="Enter Product Name ..."
+          />
+          <div class="input-group-append">
+            <button id="search_btn" class="btn">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 mt-4 mt-md-0 text-center">
+        <button class="btn" id="login_btn">Login</button>
+
+        <span id="cart" class="ml-3">Cart</span>
+        <span class="ml-1" id="cart_count">2</span>
+      </div>
+    </nav>
+
+    <h1 id="products_heading">Latest Products</h1>
+
+    <section id="products" class="container mt-5">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="https://m.media-amazon.com/images/I/617NtexaW2L._AC_UY218_.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">128GB Solid Storage Memory card - SanDisk Ultra</a>
+              </h5>
+              <div class="ratings mt-auto">
+                <div class="rating-outer">
+                  <div class="rating-inner"></div>
+                </div>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$45.67</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="https://m.media-amazon.com/images/I/61B04f0ALWL._AC_UY218_.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href=""
+                  >Wyze Cam 1080p HD Indoor Wireless Smart Home Camera Wyze Cam 1080p HD Indoor Wireless Smart Home Camera</a
+                >
+              </h5>
+              <div class="ratings mt-auto">
+               <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$965.67</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="https://m.media-amazon.com/images/I/813oF-FY01L._AC_UY218_.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href=""
+                  >Fujifilm Instax Mini Instant Film Twin Pack (White)</a
+                >
+              </h5>
+              <div class="ratings mt-auto">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$125.57</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="https://m.media-amazon.com/images/I/61pBvlYVPxL._AC_UY218_.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">AmazonBasics High-Speed HDMI Cable</a>
+              </h5>
+              <div class="ratings mt-auto">
+               <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$75.56</p>
+
+              <a type="button" href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-3 my-3">
+          <div class="card p-3 rounded">
+            <img
+              class="card-img-top mx-auto"
+              src="https://m.media-amazon.com/images/I/61pBvlYVPxL._AC_UY218_.jpg"
+            />
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">
+                <a href="">AmazonBasics High-Speed HDMI Cable, 6 Feet</a>
+              </h5>
+              <div class="ratings mt-auto">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o"></i>
+                <span id="no_of_reviews">(5 Reviews)</span>
+              </div>
+              <p class="card-text">$75.56</p>
+              <a href="#" id="view_btn" class="btn btn-block">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-1">
+      <p class="text-center text-white mt-1">
+        Shopping Cart - 2019-2020, All Rights Reserved
+      </p>
+    </footer>
+
+    <script type="text/javascript">
+      const stars = 5;
+      const rating = 4.5;
+ 
+      const starPercentage = `${(rating / stars) * 100}%`;
+      
+      document.querySelector(`.rating-inner`).style.width = starPercentage; 
+      
+    </script>
+  </body>
+</html>

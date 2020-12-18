@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update User</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./design.css" />
+
+</head>
+<body>
+    <div class="container-container-fluid">
+       <div class="row wrapper">
+                <div class="col-10 col-lg-5">
+                    <form class="shadow-lg">
+                        <h1 class="mt-2 mb-5">Update User</h1>
+
+                        <div class="form-group">
+                            <label for="name_field">Name</label>
+                            <input 
+								type="name" 
+								id="name_field" 
+								class="form-control"
+                                name='name'
+                                value=''
+                            />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email_field">Email</label>
+                            <input
+                                type="email"
+                                id="email_field"
+                                class="form-control"
+                                name='email'
+                                value=''
+                            />
+                        </div>
+
+                        <div class="form-group">
+                                    <label for="role_field">Role</label>
+
+                                    <select
+                                        id="role_field"
+                                        class="form-control"
+                                        name='role'
+                                        value=''
+                                    >
+                                        <option value="user">user</option>
+                                        <option value="admin">admin</option>
+                                    </select>
+                                </div>
+
+                        <button type="submit" class="btn update-btn btn-block mt-4 mb-3" >Update</button>
+                    </form>
+                </div>
+            </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

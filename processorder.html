@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Order</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" type="text/css" href="./design.css" />
+</head>
+<body>
+    <div class="container container-fluid">
+	
+		<div class="row d-flex justify-content-around">
+                    <div class="col-12 col-lg-7 order-details">
+
+                        <h1 class="my-5">Order # 4543f34f545</h1>
+
+                        <h4 class="mb-4">Shipping Info</h4>
+                        <p><b>Name:</b> John</p>
+                        <p><b>Phone:</b> 111 111 1111</p>
+                        <p class="mb-4"><b>Address:</b>Address of user</p>
+                        <p><b>Amount:</b> $1111</p>
+
+                        <hr />
+
+                        <h4 class="my-4">Payment</h4>
+                        <p class="greenColor" ><b>PAID</b></p>
+						
+						<h4 class="my-4">Stripe ID</h4>
+                        <p class="greenColor" ><b>stripe_3458349584985</b></p>
+
+
+                        <h4 class="my-4">Order Status:</h4>
+                        <p class='greenColor' ><b>Delivered</b></p>
+
+
+                        <h4 class="my-4">Order Items:</h4>
+
+                        <hr />
+                        <div class="cart-item my-1">
+                                    <div class="row my-5">
+                                        <div class="col-4 col-lg-2">
+                                            <img src='' alt="Laptop" height="45" width="65" />
+                                        </div>
+
+                                        <div class="col-5 col-lg-5">
+                                            <a href="#">Mic</a>
+                                        </div>
+
+
+                                        <div class="col-4 col-lg-2 mt-4 mt-lg-0">
+                                            <p>$33</p>
+                                        </div>
+
+                                        <div class="col-4 col-lg-3 mt-4 mt-lg-0">
+                                            <p>2 Piece(s)</p>
+                                        </div>
+                                    </div>
+                        </div>
+                        <hr />
+                    </div>
+					
+					<div class="col-12 col-lg-3 mt-5">
+                                    <h4 class="my-4">Status</h4>
+
+                                    <div class="form-group">
+                                        <select
+                                            class="form-control"
+                                            name='status'
+                                            value=''
+                                        >
+                                            <option value="Processing">Processing</option>
+                                            <option value="Shipped">Shipped</option>
+                                            <option value="Delivered">Delivered</option>
+                                        </select>
+                                    </div>
+
+                                    <button class="btn btn-primary btn-block">
+                                        Update Status
+                                </button>
+                                </div>
+					
+                </div>
+        
+    </div>
+</body>
+</html>
